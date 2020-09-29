@@ -1,0 +1,131 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav ul {
+    display: flex;
+    background-color: #5C95FF;
+    padding: 2rem;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.125rem;
+    font-size: 100;
+    transition: color 250ms ease-in-out;
+}
+
+.nav a:hover, 
+.nav a:focus {
+    color: rgba(255, 255, 255, 1)
+}
+
+.home-hero {
+    text-align: center;
+    padding: 10em;
+    background-image: url('img/hero-bg.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.title-text {
+    font-size: 5rem;
+    color: #FFF;
+}
+
+.title-text span {
+    display: block;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.btn {
+    font-size: 1.5rem;
+    color: #ABE188;
+    border: 1px solid #ABE188;
+    padding: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.info-container {
+    display: flex;
+}
+
+.info-title {
+    font-size: 4rem;
+    margin: 50px;
+} 
+
+.info-text {
+    margin-top: 50px;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.stats {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.stats-container {
+    columns: 2;
+    column-rule: 1px solid #5C95FF;
+}
+
+.stats-title {
+    font-size: 4rem;
+    font-weight: 100; 
+    text-transform: uppercase;
+}
+
+.stat {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.stat span {
+    display: block;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #232323;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.footer-text {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+
